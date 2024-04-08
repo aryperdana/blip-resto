@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        barlow: ['"barlow"', "sans-serif"]
+      },
+      colors: {
+        'custom-yellow-100' : "#FFCA40",
+        'custom-yellow-200' : "#594A30"
+      },
+      backgroundColor: {
+        mainColor : '#252836',
+        sideColor : '#1F1D2B'
+      },
+      width: {
+        '104': '6.5rem',
+      }
     },
   },
   plugins: [],
